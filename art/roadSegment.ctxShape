@@ -1,0 +1,225 @@
+function drawRoadSegment() {
+	// layer1/Path
+	this.save();
+	this.beginPath();
+	this.moveTo(0.0, 0.0);
+	this.lineTo(800.0, 0.0);
+	this.lineTo(800.0, 150.0);
+	this.lineTo(0.0, 150.0);
+	this.lineTo(0.0, 0.0);
+	this.closePath();
+	this.fillStyle = "rgb(52, 121, 56)";
+	this.fill();
+
+	// layer1/Group
+
+	// layer1/Group/Path
+	this.save();
+	this.beginPath();
+	this.moveTo(218.7, 0.0);
+	this.lineTo(581.1, 0.0);
+	this.lineTo(581.1, 150.0);
+	this.lineTo(218.7, 150.0);
+	this.lineTo(218.7, 0.0);
+	this.closePath();
+	this.fillStyle = "rgb(76, 76, 76)";
+	this.fill();
+
+	// layer1/Group/Path
+	this.beginPath();
+	this.moveTo(208.0, 131.2);
+	this.lineTo(218.9, 131.2);
+	this.lineTo(218.9, 150.0);
+	this.lineTo(208.0, 150.0);
+	this.lineTo(208.0, 131.2);
+	this.closePath();
+	this.fillStyle = "rgb(192, 38, 44)";
+	this.fill();
+
+	// layer1/Group/Path
+	this.beginPath();
+	this.moveTo(208.0, 0.0);
+	this.lineTo(218.9, 0.0);
+	this.lineTo(218.9, 18.8);
+	this.lineTo(208.0, 18.8);
+	this.lineTo(208.0, 0.0);
+	this.closePath();
+	this.fillStyle = "rgb(229, 229, 229)";
+	this.fill();
+
+	// layer1/Group/Path
+	this.beginPath();
+	this.moveTo(208.0, 18.8);
+	this.lineTo(218.9, 18.8);
+	this.lineTo(218.9, 37.5);
+	this.lineTo(208.0, 37.5);
+	this.lineTo(208.0, 18.8);
+	this.closePath();
+	this.fillStyle = "rgb(192, 38, 44)";
+	this.fill();
+
+	// layer1/Group/Path
+	this.beginPath();
+	this.moveTo(208.0, 37.5);
+	this.lineTo(218.9, 37.5);
+	this.lineTo(218.9, 56.2);
+	this.lineTo(208.0, 56.2);
+	this.lineTo(208.0, 37.5);
+	this.closePath();
+	this.fillStyle = "rgb(229, 229, 229)";
+	this.fill();
+
+	// layer1/Group/Path
+	this.beginPath();
+	this.moveTo(208.0, 56.2);
+	this.lineTo(218.9, 56.2);
+	this.lineTo(218.9, 75.0);
+	this.lineTo(208.0, 75.0);
+	this.lineTo(208.0, 56.2);
+	this.closePath();
+	this.fillStyle = "rgb(192, 38, 44)";
+	this.fill();
+
+	// layer1/Group/Path
+	this.beginPath();
+	this.moveTo(208.0, 75.0);
+	this.lineTo(218.9, 75.0);
+	this.lineTo(218.9, 93.8);
+	this.lineTo(208.0, 93.8);
+	this.lineTo(208.0, 75.0);
+	this.closePath();
+	this.fillStyle = "rgb(229, 229, 229)";
+	this.fill();
+
+	// layer1/Group/Path
+	this.beginPath();
+	this.moveTo(208.0, 93.8);
+	this.lineTo(218.9, 93.8);
+	this.lineTo(218.9, 112.5);
+	this.lineTo(208.0, 112.5);
+	this.lineTo(208.0, 93.8);
+	this.closePath();
+	this.fillStyle = "rgb(192, 38, 44)";
+	this.fill();
+
+	// layer1/Group/Path
+	this.beginPath();
+	this.moveTo(208.0, 112.5);
+	this.lineTo(218.9, 112.5);
+	this.lineTo(218.9, 131.2);
+	this.lineTo(208.0, 131.2);
+	this.lineTo(208.0, 112.5);
+	this.closePath();
+	this.fillStyle = "rgb(229, 229, 229)";
+	this.fill();
+
+	// layer1/Group/Path
+	this.beginPath();
+	this.moveTo(581.1, 0.0);
+	this.lineTo(592.0, 0.0);
+	this.lineTo(592.0, 18.8);
+	this.lineTo(581.1, 18.8);
+	this.lineTo(581.1, 0.0);
+	this.closePath();
+	this.fillStyle = "rgb(192, 38, 44)";
+	this.fill();
+
+	// layer1/Group/Path
+	this.beginPath();
+	this.moveTo(581.1, 131.2);
+	this.lineTo(592.0, 131.2);
+	this.lineTo(592.0, 150.0);
+	this.lineTo(581.1, 150.0);
+	this.lineTo(581.1, 131.2);
+	this.closePath();
+	this.fillStyle = "rgb(229, 229, 229)";
+	this.fill();
+
+	// layer1/Group/Path
+	this.beginPath();
+	this.moveTo(581.1, 112.5);
+	this.lineTo(592.0, 112.5);
+	this.lineTo(592.0, 131.2);
+	this.lineTo(581.1, 131.2);
+	this.lineTo(581.1, 112.5);
+	this.closePath();
+	this.fillStyle = "rgb(192, 38, 44)";
+	this.fill();
+
+	// layer1/Group/Path
+	this.beginPath();
+	this.moveTo(581.1, 93.8);
+	this.lineTo(592.0, 93.8);
+	this.lineTo(592.0, 112.5);
+	this.lineTo(581.1, 112.5);
+	this.lineTo(581.1, 93.8);
+	this.closePath();
+	this.fillStyle = "rgb(229, 229, 229)";
+	this.fill();
+
+	// layer1/Group/Path
+	this.beginPath();
+	this.moveTo(581.1, 75.0);
+	this.lineTo(592.0, 75.0);
+	this.lineTo(592.0, 93.8);
+	this.lineTo(581.1, 93.8);
+	this.lineTo(581.1, 75.0);
+	this.closePath();
+	this.fillStyle = "rgb(192, 38, 44)";
+	this.fill();
+
+	// layer1/Group/Path
+	this.beginPath();
+	this.moveTo(581.1, 56.2);
+	this.lineTo(592.0, 56.2);
+	this.lineTo(592.0, 75.0);
+	this.lineTo(581.1, 75.0);
+	this.lineTo(581.1, 56.2);
+	this.closePath();
+	this.fillStyle = "rgb(229, 229, 229)";
+	this.fill();
+
+	// layer1/Group/Path
+	this.beginPath();
+	this.moveTo(581.1, 37.5);
+	this.lineTo(592.0, 37.5);
+	this.lineTo(592.0, 56.2);
+	this.lineTo(581.1, 56.2);
+	this.lineTo(581.1, 37.5);
+	this.closePath();
+	this.fillStyle = "rgb(192, 38, 44)";
+	this.fill();
+
+	// layer1/Group/Path
+	this.beginPath();
+	this.moveTo(581.1, 18.8);
+	this.lineTo(592.0, 18.8);
+	this.lineTo(592.0, 37.5);
+	this.lineTo(581.1, 37.5);
+	this.lineTo(581.1, 18.8);
+	this.closePath();
+	this.fillStyle = "rgb(229, 229, 229)";
+	this.fill();
+
+	// layer1/Group/Path
+	this.beginPath();
+	this.moveTo(335.3, 58.9);
+	this.lineTo(344.2, 58.9);
+	this.lineTo(344.2, 91.1);
+	this.lineTo(335.3, 91.1);
+	this.lineTo(335.3, 58.9);
+	this.closePath();
+	this.fill();
+
+	// layer1/Group/Path
+	this.beginPath();
+	this.moveTo(455.8, 58.9);
+	this.lineTo(464.7, 58.9);
+	this.lineTo(464.7, 91.1);
+	this.lineTo(455.8, 91.1);
+	this.lineTo(455.8, 58.9);
+	this.closePath();
+	this.fill();
+	this.restore();
+	this.restore();
+}
